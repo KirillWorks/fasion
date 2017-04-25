@@ -66,7 +66,7 @@
                             </ul>
                             <span></span>
                         </li>
-                        <li><a class="news" href="">новости и акции</a></li>
+                        <li><a href="news.html">новости и акции</a></li>
                         <li><a class="reservation">бронирование</a></li>
                         <li><a href="contacts.html">контакты</a></li>
                     </ul>
@@ -76,36 +76,37 @@
                         <p>Запишетесь к нам в салон воспользовавшись формой бронирования ниже:</p>
                     </div>
                     <div class="reservation-form">
-                        <ul>
-                            <li>
-                                <label>Ваше имя:</label>
-                                <input type="text">
-                            </li>
-                            <li>
-                                <label>Контактный номер:</label>
-                                <input type="text">
-                            </li>
-                            <li>
-                                <label>Дата:</label>
-                                <select>
+                        <form action="" method="post">
+                            <ul>
+                                <li>
+                                    <label for="name" >Ваше имя:</label>
+                                    <input type="text" id="name" required>
+                                </li>
+                                <li>
+                                    <label for="number">Контактный номер:</label>
+                                    <input type="text" id="number" required>
+                                </li>
+                                <li>
+                                    <label for="date">Дата:</label>
+                                    <select id="date">
                                     <option></option>
                                     <option> В течение 3х дней </option>
                                     <option> Завтра </option>
                                     <option> Сегодня </option>
                                 </select>
-                            </li>                           
-                            <li>
-                                <label>Время:</label>
-                                <select>
+                                </li>
+                                <li>
+                                    <label for="time">Время:</label>
+                                    <select id="time">
                                     <option></option>
                                     <option> Утром </option>
                                     <option> Днем </option>
                                     <option> Вечером </option>
                                 </select>
-                            </li>
-                            <li>
-                                <label>Вид услуги:</label>
-                                <select>
+                                </li>
+                                <li>
+                                    <label for="services">Вид услуги:</label>
+                                    <select id="services">
                                     <option></option>
                                     <option> Парикмахерский зал </option>
                                     <option> Маникюр </option>
@@ -113,8 +114,9 @@
                                     <option> Косметология </option>
                                     <option> Массаж </option>
                                </select>
-                            </li>
-                        </ul>
+                                </li>
+                            </ul>
+                        </form>
                     </div>
                     <div class="btn-box">
                         <button type="submit" class="form-submit-button" data-component="button">Записаться в салон</button>
