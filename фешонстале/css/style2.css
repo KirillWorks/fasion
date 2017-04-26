@@ -1190,6 +1190,201 @@ p.text-color {
     text-decoration: none;
     font-family: Trebuchet, Trebuchet MS, Tahoma, Arial, sans-serif;
     position: relative;
-        left: 500px;
+    left: 500px;
     box-shadow: inset 3px 3px 4px rgba(255, 255, 255, 0.75), inset -3px -3px 4px rgba(0, 0, 0, 0.75);
+}
+
+
+/*************************************forHer****************************************/
+
+.head-img {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.breadcakes ul {
+    font-size: 0;
+    padding: 0;
+    list-style: none;
+    margin-bottom: 5%;
+}
+
+.breadcakes li {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 24px;
+    padding-top: 7px;
+    margin: 0;
+}
+
+.breadcakes li::before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 7px;
+    background-color: #9BC95A;
+    top: 0;
+    left: 0;
+}
+
+.breadcakes li.breadcakes-active::before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 7px;
+    background-color: #C1272D;
+    top: 0;
+    left: 0;
+}
+
+.breadcakes li.breadcakes-active:hover::before {
+    background-color: #C1272D;
+}
+
+.breadcakes li:hover::before {
+    background-color: #000;
+}
+
+.breadcakes li>a {
+    line-height: 43px;
+    font-size: 24px;
+    text-align: center;
+    font-family: Trebuchet, Trebuchet MS, Tahoma, Arial, sans-serif;
+    font-weight: bold;
+    color: #000;
+    text-decoration: none;
+}
+
+.breadcakes-box {
+    font-size: 0;
+    margin-bottom: 2%;
+}
+
+.breadcakes-box img {
+    border-radius: 20px;
+}
+
+.breadcakes-box-item1,
+.breadcakes-box-item2 {
+    padding: 0 2%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.breadcakes-box-item1 {
+    width: 70%;
+}
+
+.breadcakes-box-item2 {
+    width: 22%;
+}
+
+.breadcakes-box-item1 p {
+    line-height: 19px;
+    color: #5A5A5A;
+    font-size: 16px;
+    font-family: Trebuchet, Trebuchet MS, Tahoma, Arial, sans-serif;
+    font-weight: bold;
+}
+
+#u8864-4 {
+    padding-left: 3%;
+    margin-top: 5%;
+    line-height: 29px;
+    font-size: 24px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#u37757 {
+    border-style: solid;
+    border-width: 4px;
+    border-color: #ED1C24;
+    border-radius: 10px;
+}
+
+#u37763-4 {
+    line-height: 29px;
+    font-size: 24px;
+    text-align: center;
+    font-family: Trebuchet, Trebuchet MS, Tahoma, Arial, sans-serif;
+    font-weight: bold;
+}
+
+.breadcakes-img-box {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.breadcakes-text-box {
+    font-size: 0;
+    padding: 0 2%;
+}
+
+#u34578-2 {
+    font-size: 23px;
+    text-align: center;
+    line-height: 28px;
+}
+
+#u34578-6 {
+    line-height: 19px;
+    color: #5A5A5A;
+    font-size: 16px;
+    font-family: Trebuchet, Trebuchet MS, Tahoma, Arial, sans-serif;
+    font-weight: bold;
+}
+
+.breadcakes-text-item {
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    text-align: center;
+}
+
+.breadcakes-slider {
+    width: 35%;
+    margin: 0 auto;
+    padding-top: 3%;
+}
+
+.breadcakes-slider img {
+    border-radius: 20px;
+    margin-bottom: 10%;
+}
+
+#u31878-5 {
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: normal;
+}
+
+#u31878-6 {
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: bold;
+}
+
+.breadcakes-box2-item2,
+.breadcakes-box2-item1 {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.breadcakes-box2-item2 {
+    width: 15%;
+}
+
+.breadcakes-box2-item1 {
+    width: 79%;
+    padding: 0 3%;
+    line-height: 19px;
+    color: #5A5A5A;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#u31878-7 {
+    float: right;
 }

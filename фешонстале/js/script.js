@@ -103,7 +103,7 @@ $(document).ready(function () {
         slidesToShow: 5,
         slidesToScroll: 5,
         autoplay: true,
-        autoplaySpeed: 3500,        
+        autoplaySpeed: 3500,
 
     });
 
@@ -115,5 +115,15 @@ $(document).ready(function () {
         prevArrow: '<div class="PrevArrow"></div>',
         nextArrow: '<div class="NextArrow"></div>'
     });
+
+    $(function () {
+        $(".breadcakes").tabs();
+    });
+
+    $(".breadcakes li").click(function (e) {
+        e.preventDefault();
+        $(".breadcakes li").removeClass('breadcakes-active');
+        $(this).addClass('breadcakes-active');
+    })
 
 });
