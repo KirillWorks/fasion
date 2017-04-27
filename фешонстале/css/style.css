@@ -32,6 +32,15 @@ ul {
     opacity: 0.71;
 }
 
+.menu-top span {
+    position: absolute;
+    top: 35px;
+    right: 0px;
+    width: 10px;
+    height: 10px;
+    background: url(../img/arrowmenudown.gif) no-repeat;
+}
+
 .menu-top>li:hover {
     opacity: 1;
 }
