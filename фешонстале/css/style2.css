@@ -314,10 +314,15 @@ footer {
     margin-bottom: 7%;
 }
 
+.slick-slider-top .slick-slide.slick-active {
+    filter: brightness(60%);
+}
+
 .slick-slider-top .slick-slide {
     margin-right: 2px;
     margin-bottom: 1px;
-    filter: brightness(60%);
+    filter: brightness(60%) blur(5px);
+    transition: filter 2s;
 }
 
 .slick-slider-top .slick-slide:hover {
@@ -548,6 +553,7 @@ p.text-color {
 .head {
     width: 30%;
     margin: 0 auto;
+    margin-top: 3%;
 }
 
 .forHim-content1 {
@@ -754,6 +760,7 @@ p.text-color {
 
 .news {
     margin-bottom: 3%;
+    margin-top: 5%;
 }
 
 .news img {
@@ -762,6 +769,14 @@ p.text-color {
     margin: 0 auto;
     border: 5px solid #C1272D;
     border-radius: 25px;
+}
+
+.border-radius {
+    border-radius: 18px;
+}
+
+.border-radius-bottom {
+    border-bottom-left-radius: 18px;
 }
 
 .news2 {
@@ -1243,6 +1258,32 @@ p.text-color {
     left: 0;
 }
 
+
+/**************************
+          slick-slider
+**************************/
+
+.slick-slide {
+    opacity: .5;
+    transition: opacity 2s ease-in-out;
+}
+
+.slick-slide.opacidown {
+    opacity: 0;
+    transition: opacity 2s ease-in-out;
+}
+
+div.slick-current {
+    opacity: 1;
+    transition: opacity 2s ease-in-out;
+}
+
+div.slick-active {
+    filter: brightness(50%);
+    opacity: 1;
+    transition: opacity 2s ease-in-out;
+}
+
 .breadcakes li.breadcakes-active:hover::before {
     background-color: #C1272D;
 }
@@ -1267,6 +1308,7 @@ p.text-color {
 
 .breadcakes-box {
     font-size: 0;
+    padding: 0 2%;
     margin-bottom: 2%;
 }
 
@@ -1657,6 +1699,7 @@ p.text-color {
 .legs-box {
     width: 85%;
     margin: 0 auto;
+    padding-bottom: 1%;
 }
 
 .legs-box>.breadcakes-box {

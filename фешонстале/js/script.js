@@ -97,13 +97,15 @@ $(document).ready(function () {
 
 
     $('.slick-slider-top').slick({
-        //fade: true,
+      // fade: true,
         arrows: false,
         infinite: true,
         slidesToShow: 5,
         slidesToScroll: 5,
         autoplay: true,
-        autoplaySpeed: 3500,
+        speed: 0,
+        autoplaySpeed: 5500,
+        cssEase: 'ease-in'
 
     });
 
